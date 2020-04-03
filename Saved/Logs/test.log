@@ -26707,3 +26707,1155 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2020.04.03-04.58.02:676][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2020.04.03-04.58.05:949][748]LogWorld: UWorld::CleanupWorld for World_99, bSessionEnded=true, bCleanupResources=true
 [2020.04.03-04.58.05:950][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-04.59.13:291][362]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.03-04.59.13:391][362]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-04.59.13:393][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.03-04.59.13:393][362]PIE: New page: PIE session: VehicleExampleMap (Apr 2, 2020, 4:59:13 PM)
+[2020.04.03-04.59.13:393][362]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-04.59.13:431][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038674s)
+[2020.04.03-04.59.13:434][362]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.03-04.59.13:434][362]LogPlayLevel: PIE: World Init took: (0.002978s)
+[2020.04.03-04.59.13:435][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.042186s)
+[2020.04.03-04.59.13:579][362]LogUObjectHash: Compacting FUObjectHashTables data took  10.19ms
+[2020.04.03-04.59.13:589][362]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.03-04.59.13:589][362]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.03-04.59.13:590][362]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.03-04.59.13:590][362]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.03-04.59.13:590][362]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.03-04.59.13:590][362]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.03-04.59.13:590][362]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.03-04.59.13:590][362]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.03-04.59.13:591][362]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.03-04.59.13:591][362]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.03-04.59.13:611][362]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.03-04.59.13:611][362]LogAudioMixer: Display: Name: 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-04.59.13:611][362]LogAudioMixer: Display: Is Default: Yes
+[2020.04.03-04.59.13:611][362]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.03-04.59.13:611][362]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.03-04.59.13:611][362]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.03-04.59.13:611][362]LogAudioMixer: Display: Channel Order:
+[2020.04.03-04.59.13:611][362]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.03-04.59.13:611][362]LogAudioMixer: Display: 1: FrontRight
+[2020.04.03-04.59.13:648][362]LogAudioMixer: Display: Using Audio Device 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-04.59.13:654][362]LogInit: FAudioDevice initialized.
+[2020.04.03-04.59.13:686][362]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.04.03-04.59.13:700][362]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2020.04.02-22.59.13
+[2020.04.03-04.59.13:701][362]LogWorld: Bringing up level for play took: 0.006318
+[2020.04.03-04.59.13:701][362]LogOnline: OSS: Creating online subsystem instance for: :Context_197
+[2020.04.03-04.59.13:713][362]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.434
+[2020.04.03-04.59.13:713][362]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-04.59.13:873][363]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.066408 > MaxSimulationTimeStep (0.050) for 'BP_Skate_C_0', movement 'Walking'
+[2020.04.03-04.59.15:664][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-04.59.15:679][415]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.03-04.59.15:699][415]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.03-04.59.15:699][415]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-04.59.15:700][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-04.59.15:700][415]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-04.59.15:700][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-04.59.15:700][415]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-04.59.15:702][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-04.59.15:725][415]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.03-04.59.15:726][415]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-04.59.15:740][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-04.59.15:868][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-04.59.15:874][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-04.59.15:888][415]LogUObjectHash: Compacting FUObjectHashTables data took   9.95ms
+[2020.04.03-04.59.15:935][416]LogPlayLevel: Display: Destroying online subsystem :Context_197
+[2020.04.03-04.59.18:295][466]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.03-04.59.18:408][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-04.59.18:408][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.03-04.59.18:409][466]PIE: New page: PIE session: VehicleExampleMap (Apr 2, 2020, 4:59:18 PM)
+[2020.04.03-04.59.18:409][466]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-04.59.18:482][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072339s)
+[2020.04.03-04.59.18:485][466]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.03-04.59.18:485][466]LogPlayLevel: PIE: World Init took: (0.003250s)
+[2020.04.03-04.59.18:486][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.076162s)
+[2020.04.03-04.59.18:605][466]LogUObjectHash: Compacting FUObjectHashTables data took   8.56ms
+[2020.04.03-04.59.18:609][466]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.03-04.59.18:609][466]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.03-04.59.18:609][466]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.03-04.59.18:609][466]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.03-04.59.18:609][466]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.03-04.59.18:609][466]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.03-04.59.18:609][466]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.03-04.59.18:609][466]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.03-04.59.18:610][466]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.03-04.59.18:610][466]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.03-04.59.18:626][466]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.03-04.59.18:626][466]LogAudioMixer: Display: Name: 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-04.59.18:626][466]LogAudioMixer: Display: Is Default: Yes
+[2020.04.03-04.59.18:626][466]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.03-04.59.18:626][466]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.03-04.59.18:626][466]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.03-04.59.18:626][466]LogAudioMixer: Display: Channel Order:
+[2020.04.03-04.59.18:626][466]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.03-04.59.18:626][466]LogAudioMixer: Display: 1: FrontRight
+[2020.04.03-04.59.18:652][466]LogAudioMixer: Display: Using Audio Device 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-04.59.18:656][466]LogInit: FAudioDevice initialized.
+[2020.04.03-04.59.18:717][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-04.59.18:718][466]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.04.03-04.59.18:733][466]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2020.04.02-22.59.18
+[2020.04.03-04.59.18:734][466]LogWorld: Bringing up level for play took: 0.007080
+[2020.04.03-04.59.18:735][466]LogOnline: OSS: Creating online subsystem instance for: :Context_198
+[2020.04.03-04.59.18:754][466]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.607
+[2020.04.03-04.59.18:755][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-04.59.18:934][467]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.084401 > MaxSimulationTimeStep (0.050) for 'BP_Skate_C_0', movement 'Walking'
+[2020.04.03-04.59.25:593][585]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-04.59.25:609][585]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.03-04.59.25:629][585]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.03-04.59.25:629][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-04.59.25:630][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-04.59.25:630][585]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-04.59.25:687][585]LogSlate: Window 'test Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.03-04.59.25:701][585]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-04.59.25:701][585]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-04.59.25:702][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-04.59.25:718][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.03-04.59.25:718][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-04.59.25:733][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-04.59.25:835][585]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-04.59.25:854][585]LogUObjectHash: Compacting FUObjectHashTables data took   8.05ms
+[2020.04.03-04.59.25:881][586]LogPlayLevel: Display: Destroying online subsystem :Context_198
+[2020.04.03-04.59.40:609][911]BlueprintLog: New page: Compile BP_Skate
+[2020.04.03-04.59.41:356][911]LogUObjectHash: Compacting FUObjectHashTables data took   9.10ms
+[2020.04.03-04.59.42:209][925]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.03-04.59.42:275][925]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-04.59.42:276][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.03-04.59.42:276][925]PIE: New page: PIE session: VehicleExampleMap (Apr 2, 2020, 4:59:42 PM)
+[2020.04.03-04.59.42:276][925]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-04.59.42:313][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036883s)
+[2020.04.03-04.59.42:315][925]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.03-04.59.42:316][925]LogPlayLevel: PIE: World Init took: (0.002181s)
+[2020.04.03-04.59.42:316][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.039461s)
+[2020.04.03-04.59.42:406][925]LogUObjectHash: Compacting FUObjectHashTables data took  10.02ms
+[2020.04.03-04.59.42:409][925]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.03-04.59.42:409][925]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.03-04.59.42:409][925]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.03-04.59.42:409][925]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.03-04.59.42:409][925]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.03-04.59.42:409][925]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.03-04.59.42:409][925]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.03-04.59.42:409][925]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.03-04.59.42:410][925]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.03-04.59.42:410][925]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.03-04.59.42:424][925]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.03-04.59.42:424][925]LogAudioMixer: Display: Name: 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-04.59.42:424][925]LogAudioMixer: Display: Is Default: Yes
+[2020.04.03-04.59.42:424][925]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.03-04.59.42:425][925]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.03-04.59.42:425][925]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.03-04.59.42:426][925]LogAudioMixer: Display: Channel Order:
+[2020.04.03-04.59.42:426][925]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.03-04.59.42:426][925]LogAudioMixer: Display: 1: FrontRight
+[2020.04.03-04.59.42:452][925]LogAudioMixer: Display: Using Audio Device 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-04.59.42:456][925]LogInit: FAudioDevice initialized.
+[2020.04.03-04.59.42:524][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-04.59.42:525][925]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.04.03-04.59.42:539][925]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2020.04.02-22.59.42
+[2020.04.03-04.59.42:540][925]LogWorld: Bringing up level for play took: 0.006342
+[2020.04.03-04.59.42:541][925]LogOnline: OSS: Creating online subsystem instance for: :Context_199
+[2020.04.03-04.59.42:554][925]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.407
+[2020.04.03-04.59.42:555][925]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-04.59.42:794][926]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.081115 > MaxSimulationTimeStep (0.050) for 'BP_Skate_C_0', movement 'Walking'
+[2020.04.03-04.59.50:010][ 58]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-04.59.50:029][ 58]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.03-04.59.50:049][ 58]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.03-04.59.50:049][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-04.59.50:050][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-04.59.50:050][ 58]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-04.59.50:117][ 58]LogSlate: Window 'test Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.03-04.59.50:134][ 58]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-04.59.50:134][ 58]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-04.59.50:135][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-04.59.50:150][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.03-04.59.50:151][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-04.59.50:165][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-04.59.50:262][ 58]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-04.59.50:282][ 58]LogUObjectHash: Compacting FUObjectHashTables data took  10.63ms
+[2020.04.03-04.59.50:318][ 59]LogPlayLevel: Display: Destroying online subsystem :Context_199
+[2020.04.03-05.00.06:080][400]BlueprintLog: New page: Compile BP_Skate
+[2020.04.03-05.00.06:781][400]LogUObjectHash: Compacting FUObjectHashTables data took   9.21ms
+[2020.04.03-05.00.07:315][406]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.03-05.00.07:388][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.00.07:388][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.03-05.00.07:388][406]PIE: New page: PIE session: VehicleExampleMap (Apr 2, 2020, 5:00:07 PM)
+[2020.04.03-05.00.07:388][406]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-05.00.07:419][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030612s)
+[2020.04.03-05.00.07:421][406]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.03-05.00.07:422][406]LogPlayLevel: PIE: World Init took: (0.003006s)
+[2020.04.03-05.00.07:423][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.034226s)
+[2020.04.03-05.00.07:517][406]LogUObjectHash: Compacting FUObjectHashTables data took  10.08ms
+[2020.04.03-05.00.07:520][406]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.03-05.00.07:520][406]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.03-05.00.07:520][406]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.03-05.00.07:520][406]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.03-05.00.07:520][406]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.03-05.00.07:520][406]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.03-05.00.07:520][406]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.03-05.00.07:520][406]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.03-05.00.07:521][406]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.03-05.00.07:521][406]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.03-05.00.07:536][406]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.03-05.00.07:536][406]LogAudioMixer: Display: Name: 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-05.00.07:536][406]LogAudioMixer: Display: Is Default: Yes
+[2020.04.03-05.00.07:536][406]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.03-05.00.07:536][406]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.03-05.00.07:536][406]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.03-05.00.07:536][406]LogAudioMixer: Display: Channel Order:
+[2020.04.03-05.00.07:536][406]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.03-05.00.07:536][406]LogAudioMixer: Display: 1: FrontRight
+[2020.04.03-05.00.07:560][406]LogAudioMixer: Display: Using Audio Device 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-05.00.07:564][406]LogInit: FAudioDevice initialized.
+[2020.04.03-05.00.07:623][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-05.00.07:623][406]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.04.03-05.00.07:637][406]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2020.04.02-23.00.07
+[2020.04.03-05.00.07:639][406]LogWorld: Bringing up level for play took: 0.008060
+[2020.04.03-05.00.07:640][406]LogOnline: OSS: Creating online subsystem instance for: :Context_200
+[2020.04.03-05.00.07:651][406]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.496
+[2020.04.03-05.00.07:652][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.00.07:864][407]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.082914 > MaxSimulationTimeStep (0.050) for 'BP_Skate_C_0', movement 'Walking'
+[2020.04.03-05.00.10:011][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.00.10:019][445]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.03-05.00.10:038][445]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.03-05.00.10:039][445]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.00.10:039][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-05.00.10:039][445]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-05.00.10:121][445]LogSlate: Window 'test Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.03-05.00.10:141][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.00.10:142][445]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.00.10:143][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.00.10:155][445]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.03-05.00.10:155][445]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.00.10:168][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.00.10:265][445]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.00.10:293][445]LogUObjectHash: Compacting FUObjectHashTables data took  12.43ms
+[2020.04.03-05.00.10:352][446]LogPlayLevel: Display: Destroying online subsystem :Context_200
+[2020.04.03-05.00.15:159][571]BlueprintLog: New page: Compile BP_Skate
+[2020.04.03-05.00.15:909][571]LogUObjectHash: Compacting FUObjectHashTables data took   9.78ms
+[2020.04.03-05.00.16:724][586]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.03-05.00.16:789][586]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.00.16:789][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.03-05.00.16:789][586]PIE: New page: PIE session: VehicleExampleMap (Apr 2, 2020, 5:00:16 PM)
+[2020.04.03-05.00.16:789][586]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-05.00.16:819][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029982s)
+[2020.04.03-05.00.16:822][586]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.03-05.00.16:822][586]LogPlayLevel: PIE: World Init took: (0.002557s)
+[2020.04.03-05.00.16:822][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.032853s)
+[2020.04.03-05.00.16:913][586]LogUObjectHash: Compacting FUObjectHashTables data took   9.92ms
+[2020.04.03-05.00.16:915][586]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.03-05.00.16:916][586]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.03-05.00.16:916][586]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.03-05.00.16:916][586]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.03-05.00.16:916][586]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.03-05.00.16:916][586]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.03-05.00.16:916][586]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.03-05.00.16:916][586]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.03-05.00.16:916][586]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.03-05.00.16:917][586]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.03-05.00.16:931][586]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.03-05.00.16:931][586]LogAudioMixer: Display: Name: 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-05.00.16:931][586]LogAudioMixer: Display: Is Default: Yes
+[2020.04.03-05.00.16:931][586]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.03-05.00.16:931][586]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.03-05.00.16:931][586]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.03-05.00.16:931][586]LogAudioMixer: Display: Channel Order:
+[2020.04.03-05.00.16:932][586]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.03-05.00.16:932][586]LogAudioMixer: Display: 1: FrontRight
+[2020.04.03-05.00.16:955][586]LogAudioMixer: Display: Using Audio Device 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-05.00.16:960][586]LogInit: FAudioDevice initialized.
+[2020.04.03-05.00.17:019][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-05.00.17:020][586]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.04.03-05.00.17:031][586]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2020.04.02-23.00.17
+[2020.04.03-05.00.17:032][586]LogWorld: Bringing up level for play took: 0.004981
+[2020.04.03-05.00.17:032][586]LogOnline: OSS: Creating online subsystem instance for: :Context_201
+[2020.04.03-05.00.17:042][586]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.895
+[2020.04.03-05.00.17:043][586]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.00.17:259][587]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.080535 > MaxSimulationTimeStep (0.050) for 'BP_Skate_C_0', movement 'Walking'
+[2020.04.03-05.00.22:142][683]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.00.22:149][683]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.03-05.00.22:169][683]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.03-05.00.22:169][683]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.00.22:170][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-05.00.22:170][683]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-05.00.22:270][683]LogSlate: Window 'test Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.03-05.00.22:288][683]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.00.22:289][683]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.00.22:291][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.00.22:306][683]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.03-05.00.22:307][683]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.00.22:322][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.00.22:422][683]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.00.22:444][683]LogUObjectHash: Compacting FUObjectHashTables data took  10.41ms
+[2020.04.03-05.00.22:489][684]LogPlayLevel: Display: Destroying online subsystem :Context_201
+[2020.04.03-05.00.23:136][702]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.03-05.00.23:206][702]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.00.23:206][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.03-05.00.23:207][702]PIE: New page: PIE session: VehicleExampleMap (Apr 2, 2020, 5:00:23 PM)
+[2020.04.03-05.00.23:207][702]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-05.00.23:241][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034147s)
+[2020.04.03-05.00.23:243][702]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.03-05.00.23:244][702]LogPlayLevel: PIE: World Init took: (0.002374s)
+[2020.04.03-05.00.23:244][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.036989s)
+[2020.04.03-05.00.23:334][702]LogUObjectHash: Compacting FUObjectHashTables data took   7.96ms
+[2020.04.03-05.00.23:337][702]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.03-05.00.23:337][702]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.03-05.00.23:337][702]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.03-05.00.23:337][702]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.03-05.00.23:337][702]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.03-05.00.23:337][702]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.03-05.00.23:337][702]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.03-05.00.23:337][702]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.03-05.00.23:338][702]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.03-05.00.23:338][702]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.03-05.00.23:352][702]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.03-05.00.23:352][702]LogAudioMixer: Display: Name: 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-05.00.23:352][702]LogAudioMixer: Display: Is Default: Yes
+[2020.04.03-05.00.23:352][702]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.03-05.00.23:352][702]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.03-05.00.23:352][702]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.03-05.00.23:352][702]LogAudioMixer: Display: Channel Order:
+[2020.04.03-05.00.23:352][702]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.03-05.00.23:352][702]LogAudioMixer: Display: 1: FrontRight
+[2020.04.03-05.00.23:376][702]LogAudioMixer: Display: Using Audio Device 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-05.00.23:380][702]LogInit: FAudioDevice initialized.
+[2020.04.03-05.00.23:451][702]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-05.00.23:452][702]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.04.03-05.00.23:464][702]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2020.04.02-23.00.23
+[2020.04.03-05.00.23:464][702]LogWorld: Bringing up level for play took: 0.004672
+[2020.04.03-05.00.23:465][702]LogOnline: OSS: Creating online subsystem instance for: :Context_202
+[2020.04.03-05.00.23:478][702]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.669
+[2020.04.03-05.00.23:479][702]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.00.23:669][703]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.082902 > MaxSimulationTimeStep (0.050) for 'BP_Skate_C_0', movement 'Walking'
+[2020.04.03-05.00.27:527][777]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.00.27:539][777]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.03-05.00.27:569][777]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.03-05.00.27:569][777]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.00.27:570][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-05.00.27:570][777]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-05.00.27:622][777]LogSlate: Window 'test Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.03-05.00.27:639][777]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.00.27:639][777]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.00.27:640][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.00.27:653][777]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.03-05.00.27:653][777]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.00.27:665][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.00.27:757][777]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.00.27:774][777]LogUObjectHash: Compacting FUObjectHashTables data took   7.41ms
+[2020.04.03-05.00.27:801][778]LogPlayLevel: Display: Destroying online subsystem :Context_202
+[2020.04.03-05.01.05:153][ 22]BlueprintLog: New page: Compile BP_Skate
+[2020.04.03-05.01.05:802][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   9.18ms
+[2020.04.03-05.01.06:385][ 31]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.03-05.01.06:444][ 31]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.01.06:444][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.03-05.01.06:445][ 31]PIE: New page: PIE session: VehicleExampleMap (Apr 2, 2020, 5:01:06 PM)
+[2020.04.03-05.01.06:446][ 31]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-05.01.06:475][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028396s)
+[2020.04.03-05.01.06:477][ 31]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.03-05.01.06:477][ 31]LogPlayLevel: PIE: World Init took: (0.002305s)
+[2020.04.03-05.01.06:478][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.031442s)
+[2020.04.03-05.01.06:559][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   8.76ms
+[2020.04.03-05.01.06:562][ 31]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.03-05.01.06:562][ 31]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.03-05.01.06:562][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.03-05.01.06:562][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.03-05.01.06:562][ 31]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.03-05.01.06:562][ 31]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.03-05.01.06:562][ 31]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.03-05.01.06:562][ 31]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.03-05.01.06:563][ 31]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.03-05.01.06:563][ 31]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.03-05.01.06:578][ 31]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.03-05.01.06:579][ 31]LogAudioMixer: Display: Name: 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-05.01.06:579][ 31]LogAudioMixer: Display: Is Default: Yes
+[2020.04.03-05.01.06:579][ 31]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.03-05.01.06:579][ 31]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.03-05.01.06:579][ 31]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.03-05.01.06:579][ 31]LogAudioMixer: Display: Channel Order:
+[2020.04.03-05.01.06:579][ 31]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.03-05.01.06:579][ 31]LogAudioMixer: Display: 1: FrontRight
+[2020.04.03-05.01.06:605][ 31]LogAudioMixer: Display: Using Audio Device 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-05.01.06:610][ 31]LogInit: FAudioDevice initialized.
+[2020.04.03-05.01.06:663][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-05.01.06:664][ 31]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.04.03-05.01.06:677][ 31]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2020.04.02-23.01.06
+[2020.04.03-05.01.06:678][ 31]LogWorld: Bringing up level for play took: 0.005878
+[2020.04.03-05.01.06:679][ 31]LogOnline: OSS: Creating online subsystem instance for: :Context_203
+[2020.04.03-05.01.06:688][ 31]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap 0.541
+[2020.04.03-05.01.06:689][ 31]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.01.06:887][ 32]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.081257 > MaxSimulationTimeStep (0.050) for 'BP_Skate_C_0', movement 'Walking'
+[2020.04.03-05.01.07:989][ 55]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.01.07:999][ 55]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.03-05.01.08:019][ 55]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.03-05.01.08:019][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.01.08:020][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-05.01.08:020][ 55]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-05.01.08:062][ 55]LogSlate: Window 'test Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.03-05.01.08:079][ 55]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.01.08:080][ 55]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.01.08:081][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.01.08:097][ 55]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.03-05.01.08:098][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.01.08:110][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.01.08:198][ 55]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.01.08:217][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   8.17ms
+[2020.04.03-05.01.08:253][ 56]LogPlayLevel: Display: Destroying online subsystem :Context_203
+[2020.04.03-05.01.12:367][111]BlueprintLog: New page: Compile BP_Skate
+[2020.04.03-05.01.13:030][111]LogUObjectHash: Compacting FUObjectHashTables data took   9.08ms
+[2020.04.03-05.01.13:620][121]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.03-05.01.13:688][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.01.13:688][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.03-05.01.13:688][121]PIE: New page: PIE session: VehicleExampleMap (Apr 2, 2020, 5:01:13 PM)
+[2020.04.03-05.01.13:689][121]LogPlayLevel: Creating play world package: /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-05.01.13:726][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037529s)
+[2020.04.03-05.01.13:729][121]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.03-05.01.13:730][121]LogPlayLevel: PIE: World Init took: (0.003235s)
+[2020.04.03-05.01.13:731][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.041828s)
+[2020.04.03-05.01.13:824][121]LogUObjectHash: Compacting FUObjectHashTables data took   9.55ms
+[2020.04.03-05.01.13:826][121]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.03-05.01.13:826][121]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.03-05.01.13:826][121]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.03-05.01.13:826][121]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.03-05.01.13:826][121]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.03-05.01.13:826][121]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.03-05.01.13:826][121]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.03-05.01.13:827][121]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.03-05.01.13:827][121]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.03-05.01.13:827][121]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.03-05.01.13:842][121]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.03-05.01.13:842][121]LogAudioMixer: Display: Name: 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-05.01.13:842][121]LogAudioMixer: Display: Is Default: Yes
+[2020.04.03-05.01.13:842][121]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.03-05.01.13:842][121]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.03-05.01.13:842][121]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.03-05.01.13:842][121]LogAudioMixer: Display: Channel Order:
+[2020.04.03-05.01.13:842][121]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.03-05.01.13:842][121]LogAudioMixer: Display: 1: FrontRight
+[2020.04.03-05.01.13:865][121]LogAudioMixer: Display: Using Audio Device 1 - L19W631 (AMD High Definition Audio Device)
+[2020.04.03-05.01.13:869][121]LogInit: FAudioDevice initialized.
+[2020.04.03-05.01.13:909][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-05.01.13:909][121]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.04.03-05.01.13:921][121]LogWorld: Bringing World /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 60) at 2020.04.02-23.01.13
+[2020.04.03-05.01.13:921][121]LogWorld: Bringing up level for play took: 0.004459
+[2020.04.03-05.01.13:922][121]LogOnline: OSS: Creating online subsystem instance for: :Context_204
+[2020.04.03-05.01.13:931][121]PIE: Play in editor start time for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap -0.216
+[2020.04.03-05.01.13:932][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.01.14:136][122]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078007 > MaxSimulationTimeStep (0.050) for 'BP_Skate_C_0', movement 'Walking'
+[2020.04.03-05.01.17:795][194]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.01.17:799][194]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.03-05.01.17:819][194]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.03-05.01.17:819][194]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.01.17:820][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.03-05.01.17:820][194]LogWorld: BeginTearingDown for /Game/VehicleBP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.03-05.01.17:878][194]LogSlate: Window 'test Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.03-05.01.17:899][194]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.01.17:899][194]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.01.17:901][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.01.17:912][194]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.03-05.01.17:913][194]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleBP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.03-05.01.17:924][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.01.18:014][194]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.01.18:033][194]LogUObjectHash: Compacting FUObjectHashTables data took   8.73ms
+[2020.04.03-05.01.18:069][195]LogPlayLevel: Display: Destroying online subsystem :Context_204
+[2020.04.03-05.02.26:782][254]BlueprintLog: New page: Compile BP_Skate
+[2020.04.03-05.02.27:477][254]LogUObjectHash: Compacting FUObjectHashTables data took   8.32ms
+[2020.04.03-05.02.29:669][318]LogUObjectHash: Compacting FUObjectHashTables data took   9.05ms
+[2020.04.03-05.02.29:804][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkateBP/BP_Skate" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/SkateBP/BP_Skate.uasset" SILENT=true
+[2020.04.03-05.02.29:962][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/BP_SkateF208BD3D4432B1EC3D3773A7D235A5F3.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/SkateBP/BP_Skate.uasset'
+[2020.04.03-05.02.29:991][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/IdleIdle" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/IdleIdle.uasset" SILENT=true
+[2020.04.03-05.02.30:298][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/IdleIdleFB9D08014BC522062F398FBC35529A5C.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/IdleIdle.uasset'
+[2020.04.03-05.02.30:323][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Bodymat" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Bodymat.uasset" SILENT=true
+[2020.04.03-05.02.30:344][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Bodymat36C3B81F4C2885A37EA051A5F38742AF.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Bodymat.uasset'
+[2020.04.03-05.02.30:373][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Body_Diffuse" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Body_Diffuse.uasset" SILENT=true
+[2020.04.03-05.02.30:803][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Body_Diffuse97D6C07648321E148B45AD95EBD0C197.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Body_Diffuse.uasset'
+[2020.04.03-05.02.30:855][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Body_Specular" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Body_Specular.uasset" SILENT=true
+[2020.04.03-05.02.31:218][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Body_Specular2EA203F6458C936D531312B2FF6D8A10.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Body_Specular.uasset'
+[2020.04.03-05.02.31:267][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Body_Gloss" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Body_Gloss.uasset" SILENT=true
+[2020.04.03-05.02.31:831][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Body_Gloss07178C644573766BE293D2925D8E4209.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Body_Gloss.uasset'
+[2020.04.03-05.02.31:873][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Body_Normal" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Body_Normal.uasset" SILENT=true
+[2020.04.03-05.02.32:119][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Body_Normal1D23C3C94E24BC97D6DDA985CFA6DBB0.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Body_Normal.uasset'
+[2020.04.03-05.02.32:143][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Body_Opacity" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Body_Opacity.uasset" SILENT=true
+[2020.04.03-05.02.32:223][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Body_Opacity42A0A59E49F8BEEF7278D89ED22BCFDF.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Body_Opacity.uasset'
+[2020.04.03-05.02.32:246][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Bodymat_ncl1_1" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Bodymat_ncl1_1.uasset" SILENT=true
+[2020.04.03-05.02.32:271][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Bodymat_ncl1_18F68B64042CCC3C9B876C9A374937BCD.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Bodymat_ncl1_1.uasset'
+[2020.04.03-05.02.32:292][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Bodymat_ncl1_2" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Bodymat_ncl1_2.uasset" SILENT=true
+[2020.04.03-05.02.32:343][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Bodymat_ncl1_2664E52C64F9EDB4F64FF97BB89D27835.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Bodymat_ncl1_2.uasset'
+[2020.04.03-05.02.32:371][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Bottommat" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Bottommat.uasset" SILENT=true
+[2020.04.03-05.02.32:391][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Bottommat069FB17B4258886ABBB6268033386634.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Bottommat.uasset'
+[2020.04.03-05.02.32:415][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Bottom_Diffuse" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Bottom_Diffuse.uasset" SILENT=true
+[2020.04.03-05.02.32:509][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Bottom_Diffuse90A0A2F446C3E2BBD920F8A111B05F4C.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Bottom_Diffuse.uasset'
+[2020.04.03-05.02.32:532][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Bottom_Specular" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Bottom_Specular.uasset" SILENT=true
+[2020.04.03-05.02.32:592][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Bottom_Specular06F327B04DCF009A9B9883B02AA86DC0.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Bottom_Specular.uasset'
+[2020.04.03-05.02.32:614][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Bottom_Gloss" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Bottom_Gloss.uasset" SILENT=true
+[2020.04.03-05.02.32:678][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Bottom_GlossF5607B40471546BE591F038398F8FD58.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Bottom_Gloss.uasset'
+[2020.04.03-05.02.32:700][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Bottom_Normal" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Bottom_Normal.uasset" SILENT=true
+[2020.04.03-05.02.32:783][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Bottom_NormalCE5B7D2C460868AE79E2349F17F41C7D.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Bottom_Normal.uasset'
+[2020.04.03-05.02.32:805][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Hairmat" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Hairmat.uasset" SILENT=true
+[2020.04.03-05.02.32:825][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/HairmatC897AE6A41C1ADFE802FDC94A110B08F.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Hairmat.uasset'
+[2020.04.03-05.02.32:849][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Hair_Diffuse" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hair_Diffuse.uasset" SILENT=true
+[2020.04.03-05.02.32:926][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Hair_Diffuse40CB7CFB42193A83338A05BF99B0F21B.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hair_Diffuse.uasset'
+[2020.04.03-05.02.32:954][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Hair_Specular" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hair_Specular.uasset" SILENT=true
+[2020.04.03-05.02.33:048][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Hair_Specular8E2559734004CAA00720D6A53F207D59.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hair_Specular.uasset'
+[2020.04.03-05.02.33:122][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Hair_Gloss" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hair_Gloss.uasset" SILENT=true
+[2020.04.03-05.02.33:267][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Hair_GlossC48B2B4648B91A465C2CAEB9D8028EBB.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hair_Gloss.uasset'
+[2020.04.03-05.02.33:331][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Hair_Normal" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hair_Normal.uasset" SILENT=true
+[2020.04.03-05.02.33:525][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Hair_Normal8DC8BC354710C136F78560AB162D17AC.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hair_Normal.uasset'
+[2020.04.03-05.02.33:570][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Glovemat" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Glovemat.uasset" SILENT=true
+[2020.04.03-05.02.33:606][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Glovemat4B6633A84345011AB221909546C79C77.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Glovemat.uasset'
+[2020.04.03-05.02.33:640][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Glove_Diffuse" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Glove_Diffuse.uasset" SILENT=true
+[2020.04.03-05.02.33:745][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Glove_Diffuse969B9E33432D9BC669FA8C8831413507.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Glove_Diffuse.uasset'
+[2020.04.03-05.02.33:770][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Glove_Specular" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Glove_Specular.uasset" SILENT=true
+[2020.04.03-05.02.33:861][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Glove_Specular2F92C94D49447FB10B91BB8934A08C8F.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Glove_Specular.uasset'
+[2020.04.03-05.02.33:883][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Glove_Gloss" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Glove_Gloss.uasset" SILENT=true
+[2020.04.03-05.02.33:991][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Glove_GlossB3C955AE40F95CCC715046BE18C48A68.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Glove_Gloss.uasset'
+[2020.04.03-05.02.34:013][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Glove_Normal" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Glove_Normal.uasset" SILENT=true
+[2020.04.03-05.02.34:148][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Glove_Normal44E2F61E41744764EE84F89E9DD97C63.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Glove_Normal.uasset'
+[2020.04.03-05.02.34:177][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Eyewearmat" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Eyewearmat.uasset" SILENT=true
+[2020.04.03-05.02.34:200][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/EyewearmatEF1E28234508379FD2DAB296190A0E18.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Eyewearmat.uasset'
+[2020.04.03-05.02.34:271][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Eyewear_Diffuse" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Eyewear_Diffuse.uasset" SILENT=true
+[2020.04.03-05.02.34:441][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Eyewear_DiffuseEBBD8AC14B27D2B6E5649B9E594D2952.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Eyewear_Diffuse.uasset'
+[2020.04.03-05.02.34:470][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Eyewear_Specular" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Eyewear_Specular.uasset" SILENT=true
+[2020.04.03-05.02.34:930][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Eyewear_Specular31B548B64B7DC1C4CBC7B6A5AB7FDA6B.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Eyewear_Specular.uasset'
+[2020.04.03-05.02.34:960][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Eyewear_Gloss" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Eyewear_Gloss.uasset" SILENT=true
+[2020.04.03-05.02.35:046][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Eyewear_Gloss50F608D740AFC4F3BE8DCDAA56EA815B.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Eyewear_Gloss.uasset'
+[2020.04.03-05.02.35:112][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Eyewear_Normal" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Eyewear_Normal.uasset" SILENT=true
+[2020.04.03-05.02.35:297][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Eyewear_Normal179EC42142AB6E0F0948879969B3BE66.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Eyewear_Normal.uasset'
+[2020.04.03-05.02.35:329][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Hatmat" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Hatmat.uasset" SILENT=true
+[2020.04.03-05.02.35:404][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Hatmat777C4B4147543C5545738E9CBC578F5F.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Hatmat.uasset'
+[2020.04.03-05.02.35:439][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Hat_Diffuse" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hat_Diffuse.uasset" SILENT=true
+[2020.04.03-05.02.35:578][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Hat_Diffuse1CD722044486D01ED54F5D8AB157F9BF.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hat_Diffuse.uasset'
+[2020.04.03-05.02.35:625][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Hat_Specular" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hat_Specular.uasset" SILENT=true
+[2020.04.03-05.02.35:725][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Hat_SpecularCD788ADF4833C31AA39E63A28756C5BF.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hat_Specular.uasset'
+[2020.04.03-05.02.35:915][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Hat_Gloss" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hat_Gloss.uasset" SILENT=true
+[2020.04.03-05.02.35:979][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Hat_Gloss46632F4E48FFF435BC5EAA8EAC868D31.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hat_Gloss.uasset'
+[2020.04.03-05.02.36:147][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Hat_Normal" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hat_Normal.uasset" SILENT=true
+[2020.04.03-05.02.36:592][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Hat_Normal1BA7EFB84B5C12265163CEBD5F958428.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Hat_Normal.uasset'
+[2020.04.03-05.02.36:694][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Topmat" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Topmat.uasset" SILENT=true
+[2020.04.03-05.02.36:760][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/TopmatEAAA9BEF4D882538C583C9A88E354543.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Topmat.uasset'
+[2020.04.03-05.02.36:824][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Top_Diffuse" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Top_Diffuse.uasset" SILENT=true
+[2020.04.03-05.02.37:663][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Top_DiffuseF5D817C34B3EFB3F5A27A28D0892A8F7.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Top_Diffuse.uasset'
+[2020.04.03-05.02.37:720][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Top_Specular" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Top_Specular.uasset" SILENT=true
+[2020.04.03-05.02.38:231][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Top_Specular0D33D79F44B2A07A22232EA281813572.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Top_Specular.uasset'
+[2020.04.03-05.02.38:275][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Top_Gloss" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Top_Gloss.uasset" SILENT=true
+[2020.04.03-05.02.38:603][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Top_Gloss91C694634F44C096CF11758DCB87EE35.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Top_Gloss.uasset'
+[2020.04.03-05.02.38:636][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Top_Normal" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Top_Normal.uasset" SILENT=true
+[2020.04.03-05.02.39:692][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Top_Normal1CCD695648764B5DFC386EB54F480534.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Top_Normal.uasset'
+[2020.04.03-05.02.39:781][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Shoesmat" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Shoesmat.uasset" SILENT=true
+[2020.04.03-05.02.39:882][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Shoesmat90A844904E5D35AFF0C4C79BCA049D57.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Shoesmat.uasset'
+[2020.04.03-05.02.39:935][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Shoes_Diffuse" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Shoes_Diffuse.uasset" SILENT=true
+[2020.04.03-05.02.40:486][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Shoes_Diffuse0CCCFAAF4833CD57AE38FAB19094CB2C.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Shoes_Diffuse.uasset'
+[2020.04.03-05.02.40:513][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Shoes_Specular" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Shoes_Specular.uasset" SILENT=true
+[2020.04.03-05.02.40:716][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Shoes_SpecularFB58DF154FCB400970A8888D3281D93C.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Shoes_Specular.uasset'
+[2020.04.03-05.02.40:743][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Shoes_Gloss" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Shoes_Gloss.uasset" SILENT=true
+[2020.04.03-05.02.41:018][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Shoes_Gloss5972479243D974C5F4CD12BD5C174CDC.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Shoes_Gloss.uasset'
+[2020.04.03-05.02.41:049][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/Model_Shoes_Normal" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Shoes_Normal.uasset" SILENT=true
+[2020.04.03-05.02.41:656][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Model_Shoes_NormalAD356ECE4CF6B03B0843218F08B9D994.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Model_Shoes_Normal.uasset'
+[2020.04.03-05.02.41:690][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/IdleIdle_Skeleton" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/IdleIdle_Skeleton.uasset" SILENT=true
+[2020.04.03-05.02.41:920][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/IdleIdle_SkeletonEDAD508740E3516C4EC3EDA2C1F4D31B.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/IdleIdle_Skeleton.uasset'
+[2020.04.03-05.02.42:159][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/IdleIdle_PhysicsAsset" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/IdleIdle_PhysicsAsset.uasset" SILENT=true
+[2020.04.03-05.02.42:240][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/IdleIdle_PhysicsAssetAAF1BF644957D7DAFBC00CAC3D6C51A2.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/IdleIdle_PhysicsAsset.uasset'
+[2020.04.03-05.02.42:320][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/IdleIdle_Anim" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/IdleIdle_Anim.uasset" SILENT=true
+[2020.04.03-05.02.42:487][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/IdleIdle_AnimD3A2F82047D114C8FBCF8DA2ED0B1D52.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/IdleIdle_Anim.uasset'
+[2020.04.03-05.02.42:560][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/CharacterDer" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/CharacterDer.uasset" SILENT=true
+[2020.04.03-05.02.42:995][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/CharacterDerCA14CBCE4850E31A2C26B3ABC2EEC1EC.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/CharacterDer.uasset'
+[2020.04.03-05.02.43:149][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/CharacterDer_PhysicsAssetEA0FA53B4566A5A882FBE0A19B0AC28C.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/CharacterDer_PhysicsAsset.uasset'
+[2020.04.03-05.02.43:288][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/CharacterDer_Anim" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/CharacterDer_Anim.uasset" SILENT=true
+[2020.04.03-05.02.43:357][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/CharacterDer_AnimB9AC6A974B5C99A92DCC688B7D6845A9.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/CharacterDer_Anim.uasset'
+[2020.04.03-05.02.43:426][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Character/CharacterIzq" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/CharacterIzq.uasset" SILENT=true
+[2020.04.03-05.02.43:966][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/CharacterIzq8A849B034E3A05AF5104FA9882C8E00E.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/CharacterIzq.uasset'
+[2020.04.03-05.02.44:053][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/CharacterIzq_PhysicsAssetE094794F4C85E427046E86A17D970D86.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/CharacterIzq_PhysicsAsset.uasset'
+[2020.04.03-05.02.44:306][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/BS_Character_Izquierda590B3A254B2311C04B409F9F898452DD.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Character/Animation/BS_Character_Izquierda.uasset'
+[2020.04.03-05.02.44:386][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/LiquidCrystal-Normal_Font" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/LiquidCrystal-Normal_Font.uasset" SILENT=true
+[2020.04.03-05.02.44:442][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/LiquidCrystal-Normal_Font5AE527AE4F66456F6FE7308460FDFA99.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/LiquidCrystal-Normal_Font.uasset'
+[2020.04.03-05.02.44:494][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/LiquidCrystal-Bold_Font" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/LiquidCrystal-Bold_Font.uasset" SILENT=true
+[2020.04.03-05.02.44:590][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/LiquidCrystal-Bold_FontADCC686A42CF0A3FC18C29918F413E58.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/LiquidCrystal-Bold_Font.uasset'
+[2020.04.03-05.02.44:675][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/RacingNumbers" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/RacingNumbers.uasset" SILENT=true
+[2020.04.03-05.02.44:757][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/RacingNumbers1499C84949902F06FC12E298BE24A671.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/RacingNumbers.uasset'
+[2020.04.03-05.02.44:841][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/RacingNumbers_Font" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/RacingNumbers_Font.uasset" SILENT=true
+[2020.04.03-05.02.44:888][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/RacingNumbers_FontC6A8BBAA43769151A636848323E80CF1.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/RacingNumbers_Font.uasset'
+[2020.04.03-05.02.44:960][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Brixton_Wood_PERSONAL_USE_ONLY-V8C6E89A4490E545EBFF8699ABD23CF5B.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Brixton_Wood_PERSONAL_USE_ONLY-Vector.uasset'
+[2020.04.03-05.02.45:014][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Brixton_Wood_PERSONAL_USE_ONLY-V4F7A95634C5F23C297297E9CB94953C0.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Brixton_Wood_PERSONAL_USE_ONLY-Vector_Font.uasset'
+[2020.04.03-05.02.45:052][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/Devil_Breeze_Demi" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Devil_Breeze_Demi.uasset" SILENT=true
+[2020.04.03-05.02.45:089][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Devil_Breeze_DemiC93BF53B443314134FB7C5A25054FF89.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Devil_Breeze_Demi.uasset'
+[2020.04.03-05.02.45:125][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/Devil_Breeze_Demi_Font" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Devil_Breeze_Demi_Font.uasset" SILENT=true
+[2020.04.03-05.02.45:232][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Devil_Breeze_Demi_Font36604AA646F092E6CF80FEA2B1869795.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Devil_Breeze_Demi_Font.uasset'
+[2020.04.03-05.02.45:373][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/zrnic_rg" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/zrnic_rg.uasset" SILENT=true
+[2020.04.03-05.02.45:444][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/zrnic_rgAEA3B5A0465EDC8D74BB1EA3FD129C71.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/zrnic_rg.uasset'
+[2020.04.03-05.02.45:490][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/zrnic_rg_Font" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/zrnic_rg_Font.uasset" SILENT=true
+[2020.04.03-05.02.45:530][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/zrnic_rg_FontC78EE3A2433876DDD024A4A3CD1AF175.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/zrnic_rg_Font.uasset'
+[2020.04.03-05.02.45:594][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/Library_3_am" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Library_3_am.uasset" SILENT=true
+[2020.04.03-05.02.45:644][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Library_3_am919C71CB471DD0E2CAC288B76863B301.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Library_3_am.uasset'
+[2020.04.03-05.02.45:693][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/Library_3_am_Font" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Library_3_am_Font.uasset" SILENT=true
+[2020.04.03-05.02.45:733][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Library_3_am_Font8B36D76B4E58945BF145E7BAEFBEA3A6.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Library_3_am_Font.uasset'
+[2020.04.03-05.02.45:770][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/RestaurantMenuBook" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/RestaurantMenuBook.uasset" SILENT=true
+[2020.04.03-05.02.45:818][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/RestaurantMenuBook0E46173844298102F48A919CC66FB56F.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/RestaurantMenuBook.uasset'
+[2020.04.03-05.02.45:863][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/RestaurantMenuBook_Font" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/RestaurantMenuBook_Font.uasset" SILENT=true
+[2020.04.03-05.02.45:895][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/RestaurantMenuBook_Font342641834BB8F8BB62C5ECA6ABAF7F9C.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/RestaurantMenuBook_Font.uasset'
+[2020.04.03-05.02.45:948][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/PaybAck" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/PaybAck.uasset" SILENT=true
+[2020.04.03-05.02.46:035][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/PaybAck2F38256A410CB5CAF7BA1BA4DCEBA8F9.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/PaybAck.uasset'
+[2020.04.03-05.02.46:091][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/PaybAck_Font" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/PaybAck_Font.uasset" SILENT=true
+[2020.04.03-05.02.46:129][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/PaybAck_FontB99FFF8F4654E70EC06630A28107B9D1.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/PaybAck_Font.uasset'
+[2020.04.03-05.02.46:263][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/LiquidCrystal-Normal_Font1" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/LiquidCrystal-Normal_Font1.uasset" SILENT=true
+[2020.04.03-05.02.46:290][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/LiquidCrystal-Normal_Font11BDEAB544920274F0F806682ED65A608.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/LiquidCrystal-Normal_Font1.uasset'
+[2020.04.03-05.02.46:342][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/LiquidCrystal-Bold_Font1" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/LiquidCrystal-Bold_Font1.uasset" SILENT=true
+[2020.04.03-05.02.46:399][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/LiquidCrystal-Bold_Font17DEAF7E945FECF5FE916E487ED7EB2A3.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/LiquidCrystal-Bold_Font1.uasset'
+[2020.04.03-05.02.46:455][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineMaterials/DefaultTextMaterialOpaqueFino" FILE="../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaqueFino.uasset" SILENT=true
+[2020.04.03-05.02.46:677][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/DefaultTextMaterialOpaqueFino251ACD8A42218FCFA31D11B96F87EFB9.tmp' to '../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaqueFino.uasset'
+[2020.04.03-05.02.46:751][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineFonts/RobotoDistanceFieldFino" FILE="../../../Engine/Content/EngineFonts/RobotoDistanceFieldFino.uasset" SILENT=true
+[2020.04.03-05.02.46:810][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/RobotoDistanceFieldFino8C50F23B467296583B7F269B3A61F7A3.tmp' to '../../../Engine/Content/EngineFonts/RobotoDistanceFieldFino.uasset'
+[2020.04.03-05.02.47:009][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/Fino" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Fino.uasset" SILENT=true
+[2020.04.03-05.02.47:062][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Fino71DAA6124350E13C676309969F4BE475.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Fino.uasset'
+[2020.04.03-05.02.47:113][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fonts/Fino_Font" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Fino_Font.uasset" SILENT=true
+[2020.04.03-05.02.47:161][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Fino_Font6C519CDD4CB4B27B0C9D3CBCCC00328B.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Fonts/Fino_Font.uasset'
+[2020.04.03-05.02.47:231][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/Monopatin" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Monopatin.uasset" SILENT=true
+[2020.04.03-05.02.48:662][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/MonopatinC86451BA4C2C27E5A49A63A8E8C0DA41.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Monopatin.uasset'
+[2020.04.03-05.02.48:688][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/Color_005" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_005.uasset" SILENT=true
+[2020.04.03-05.02.48:719][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Color_0059026EA714F9C6AA6F93CFBA7DED16827.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_005.uasset'
+[2020.04.03-05.02.49:015][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Metal_Steel_Textured_WhiteC4BF137D48994999978FFC9DF27AB8C4.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Metal_Steel_Textured_White.uasset'
+[2020.04.03-05.02.49:123][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Metal_Steel_Textured_White152F0F59B4CB69D4C51FC668CABD91E7E.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Metal_Steel_Textured_White1.uasset'
+[2020.04.03-05.02.49:231][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/Color_C01" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_C01.uasset" SILENT=true
+[2020.04.03-05.02.49:263][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Color_C014B25FD3D4766DC4CE5FB3C934DF74227.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_C01.uasset'
+[2020.04.03-05.02.49:293][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/material_0" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/material_0.uasset" SILENT=true
+[2020.04.03-05.02.49:327][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/material_0D1FE86EC4ECD1D878FB5D1A37385B7CF.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/material_0.uasset'
+[2020.04.03-05.02.49:373][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/material" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/material.uasset" SILENT=true
+[2020.04.03-05.02.49:453][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/material58639A354271F5477E28F395322802A4.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/material.uasset'
+[2020.04.03-05.02.49:526][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/__Metal_Aluminum_Anodized_3DEA785704B6A4438E20A83AFD8415D2E.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/__Metal_Aluminum_Anodized_3.uasset'
+[2020.04.03-05.02.49:611][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/__Metal_Aluminum_Anodized_4222106964846267BB4EFF58AB457B9AE.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/__Metal_Aluminum_Anodized_4.uasset'
+[2020.04.03-05.02.49:647][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/__Color_009_1" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/__Color_009_1.uasset" SILENT=true
+[2020.04.03-05.02.49:690][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/__Color_009_1860DB8BB4FD39F20EABD8A87C12EF974.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/__Color_009_1.uasset'
+[2020.04.03-05.02.49:724][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/Color_004" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_004.uasset" SILENT=true
+[2020.04.03-05.02.49:757][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Color_004239819B64B1BBF4DD9E7EA8CC277E891.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_004.uasset'
+[2020.04.03-05.02.49:797][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/Color_006" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_006.uasset" SILENT=true
+[2020.04.03-05.02.49:888][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Color_00609B76A8544524EA8D70644BA0F6BF03D.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_006.uasset'
+[2020.04.03-05.02.49:984][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/Color_000" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_000.uasset" SILENT=true
+[2020.04.03-05.02.50:030][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Color_000F3C07B6049E812EE4601168AA70794FF.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_000.uasset'
+[2020.04.03-05.02.50:133][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/__Metal_Aluminum_Anodized_2A23C127549D5CA7C57BD589827C57CE3.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/__Metal_Aluminum_Anodized_2.uasset'
+[2020.04.03-05.02.50:287][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/__Metal_Aluminum_Anodized_53D2F5E904FA53D53F375F5AE5145C56D.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/__Metal_Aluminum_Anodized_5.uasset'
+[2020.04.03-05.02.50:341][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/material_4" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/material_4.uasset" SILENT=true
+[2020.04.03-05.02.50:438][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/material_42B7D80CE436D9E047905FB9CACBF58BC.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/material_4.uasset'
+[2020.04.03-05.02.50:518][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/__Metal_Aluminum_Anodized_1DD7CA3E94C1957C7A538AB81859423D3.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/__Metal_Aluminum_Anodized_1.uasset'
+[2020.04.03-05.02.50:600][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/__Metal_Aluminum_Anodized_699A2C109402D7A7F04A0A19CE87CF252.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/__Metal_Aluminum_Anodized_6.uasset'
+[2020.04.03-05.02.50:629][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/Color_A07" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_A07.uasset" SILENT=true
+[2020.04.03-05.02.50:654][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Color_A073D8A1DB440EEC8FC4B0D698BB625438D.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_A07.uasset'
+[2020.04.03-05.02.50:702][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/Color_A01" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_A01.uasset" SILENT=true
+[2020.04.03-05.02.50:756][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Color_A014C733A8D451C4A8E15083C9FB9ECDEAD.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_A01.uasset'
+[2020.04.03-05.02.50:787][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/Metal_Seamed" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Metal_Seamed.uasset" SILENT=true
+[2020.04.03-05.02.50:836][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Metal_SeamedFA6BD0694A6F2D82700C41A0FA87A7CA.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Metal_Seamed.uasset'
+[2020.04.03-05.02.50:874][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/Metal_Seamed1" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Metal_Seamed1.uasset" SILENT=true
+[2020.04.03-05.02.50:907][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Metal_Seamed1C2782E8345CBD04BC5B64DA8B17597C5.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Metal_Seamed1.uasset'
+[2020.04.03-05.02.50:953][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/material_7" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/material_7.uasset" SILENT=true
+[2020.04.03-05.02.51:000][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/material_73262819B43E05641B9D447BE9835B29C.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/material_7.uasset'
+[2020.04.03-05.02.51:037][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/Color_008" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_008.uasset" SILENT=true
+[2020.04.03-05.02.51:066][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Color_0080E03A2584AB8F5AF38E62894F5096579.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_008.uasset'
+[2020.04.03-05.02.51:084][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/__Color_A11_2" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/__Color_A11_2.uasset" SILENT=true
+[2020.04.03-05.02.51:135][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/__Color_A11_2AC1B712D4AB82EE09B4479A20FCFB693.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/__Color_A11_2.uasset'
+[2020.04.03-05.02.51:169][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Monopatin/Color_001" FILE="../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_001.uasset" SILENT=true
+[2020.04.03-05.02.51:207][318]LogSavePackage: Moving '../../../../../../Users/ulise/Documents/StreetLugeRV/Saved/Color_0019FA4493244B10DB3ACF575B0FA51FF41.tmp' to '../../../../../../Users/ulise/Documents/StreetLugeRV/Content/Models/Monopatin/Color_001.uasset'
+[2020.04.03-05.02.53:529][318]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.03-05.02.53:529][318]LogContentValidation: Display: Validating Blueprint /Game/SkateBP/BP_Skate.BP_Skate
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating SkeletalMesh /Game/Models/Character/IdleIdle.IdleIdle
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Material /Game/Models/Character/Bodymat.Bodymat
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Body_Diffuse.Model_Body_Diffuse
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Body_Specular.Model_Body_Specular
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Body_Gloss.Model_Body_Gloss
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Body_Normal.Model_Body_Normal
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Body_Opacity.Model_Body_Opacity
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Material /Game/Models/Character/Bodymat_ncl1_1.Bodymat_ncl1_1
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Material /Game/Models/Character/Bodymat_ncl1_2.Bodymat_ncl1_2
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Material /Game/Models/Character/Bottommat.Bottommat
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Bottom_Diffuse.Model_Bottom_Diffuse
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Bottom_Specular.Model_Bottom_Specular
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Bottom_Gloss.Model_Bottom_Gloss
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Bottom_Normal.Model_Bottom_Normal
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Material /Game/Models/Character/Hairmat.Hairmat
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Hair_Diffuse.Model_Hair_Diffuse
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Hair_Specular.Model_Hair_Specular
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Hair_Gloss.Model_Hair_Gloss
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Hair_Normal.Model_Hair_Normal
+[2020.04.03-05.02.53:530][318]LogContentValidation: Display: Validating Material /Game/Models/Character/Glovemat.Glovemat
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Glove_Diffuse.Model_Glove_Diffuse
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Glove_Specular.Model_Glove_Specular
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Glove_Gloss.Model_Glove_Gloss
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Glove_Normal.Model_Glove_Normal
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Material /Game/Models/Character/Eyewearmat.Eyewearmat
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Eyewear_Diffuse.Model_Eyewear_Diffuse
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Eyewear_Specular.Model_Eyewear_Specular
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Eyewear_Gloss.Model_Eyewear_Gloss
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Eyewear_Normal.Model_Eyewear_Normal
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Material /Game/Models/Character/Hatmat.Hatmat
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Hat_Diffuse.Model_Hat_Diffuse
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Hat_Specular.Model_Hat_Specular
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Hat_Gloss.Model_Hat_Gloss
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Hat_Normal.Model_Hat_Normal
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Material /Game/Models/Character/Topmat.Topmat
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Top_Diffuse.Model_Top_Diffuse
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Top_Specular.Model_Top_Specular
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Top_Gloss.Model_Top_Gloss
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Top_Normal.Model_Top_Normal
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Material /Game/Models/Character/Shoesmat.Shoesmat
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Shoes_Diffuse.Model_Shoes_Diffuse
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Shoes_Specular.Model_Shoes_Specular
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Shoes_Gloss.Model_Shoes_Gloss
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Character/Model_Shoes_Normal.Model_Shoes_Normal
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating Skeleton /Game/Models/Character/IdleIdle_Skeleton.IdleIdle_Skeleton
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Character/IdleIdle_PhysicsAsset.IdleIdle_PhysicsAsset
+[2020.04.03-05.02.53:531][318]LogContentValidation: Display: Validating AnimSequence /Game/Models/Character/IdleIdle_Anim.IdleIdle_Anim
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating SkeletalMesh /Game/Models/Character/CharacterDer.CharacterDer
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Character/CharacterDer_PhysicsAsset.CharacterDer_PhysicsAsset
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating AnimSequence /Game/Models/Character/CharacterDer_Anim.CharacterDer_Anim
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating SkeletalMesh /Game/Models/Character/CharacterIzq.CharacterIzq
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/Character/CharacterIzq_PhysicsAsset.CharacterIzq_PhysicsAsset
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating BlendSpace1D /Game/Models/Character/Animation/BS_Character_Izquierda.BS_Character_Izquierda
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating Font /Game/Fonts/LiquidCrystal-Normal_Font.LiquidCrystal-Normal_Font
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating Font /Game/Fonts/LiquidCrystal-Bold_Font.LiquidCrystal-Bold_Font
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating FontFace /Game/Fonts/RacingNumbers.RacingNumbers
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating Font /Game/Fonts/RacingNumbers_Font.RacingNumbers_Font
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating FontFace /Game/Fonts/Brixton_Wood_PERSONAL_USE_ONLY-Vector.Brixton_Wood_PERSONAL_USE_ONLY-Vector
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating Font /Game/Fonts/Brixton_Wood_PERSONAL_USE_ONLY-Vector_Font.Brixton_Wood_PERSONAL_USE_ONLY-Vector_Font
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating FontFace /Game/Fonts/Devil_Breeze_Demi.Devil_Breeze_Demi
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating Font /Game/Fonts/Devil_Breeze_Demi_Font.Devil_Breeze_Demi_Font
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating FontFace /Game/Fonts/zrnic_rg.zrnic_rg
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating Font /Game/Fonts/zrnic_rg_Font.zrnic_rg_Font
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating FontFace /Game/Fonts/Library_3_am.Library_3_am
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating Font /Game/Fonts/Library_3_am_Font.Library_3_am_Font
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating FontFace /Game/Fonts/RestaurantMenuBook.RestaurantMenuBook
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating Font /Game/Fonts/RestaurantMenuBook_Font.RestaurantMenuBook_Font
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating FontFace /Game/Fonts/PaybAck.PaybAck
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating Font /Game/Fonts/PaybAck_Font.PaybAck_Font
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating Font /Game/Fonts/LiquidCrystal-Normal_Font1.LiquidCrystal-Normal_Font1
+[2020.04.03-05.02.53:532][318]LogContentValidation: Display: Validating Font /Game/Fonts/LiquidCrystal-Bold_Font1.LiquidCrystal-Bold_Font1
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Engine/EngineMaterials/DefaultTextMaterialOpaqueFino.DefaultTextMaterialOpaqueFino
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Font /Engine/EngineFonts/RobotoDistanceFieldFino.RobotoDistanceFieldFino
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating FontFace /Game/Fonts/Fino.Fino
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Font /Game/Fonts/Fino_Font.Fino_Font
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating StaticMesh /Game/Models/Monopatin/Monopatin.Monopatin
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/Color_005.Color_005
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/Metal_Steel_Textured_White.Metal_Steel_Textured_White
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Monopatin/Metal_Steel_Textured_White1.Metal_Steel_Textured_White1
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/Color_C01.Color_C01
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/material_0.material_0
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/material.material
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/__Metal_Aluminum_Anodized_3.__Metal_Aluminum_Anodized_3
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Monopatin/__Metal_Aluminum_Anodized_4.__Metal_Aluminum_Anodized_4
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/__Color_009_1.__Color_009_1
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/Color_004.Color_004
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/Color_006.Color_006
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/Color_000.Color_000
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/__Metal_Aluminum_Anodized_2.__Metal_Aluminum_Anodized_2
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Monopatin/__Metal_Aluminum_Anodized_5.__Metal_Aluminum_Anodized_5
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/material_4.material_4
+[2020.04.03-05.02.53:533][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/__Metal_Aluminum_Anodized_1.__Metal_Aluminum_Anodized_1
+[2020.04.03-05.02.53:534][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Monopatin/__Metal_Aluminum_Anodized_6.__Metal_Aluminum_Anodized_6
+[2020.04.03-05.02.53:534][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/Color_A07.Color_A07
+[2020.04.03-05.02.53:534][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/Color_A01.Color_A01
+[2020.04.03-05.02.53:534][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/Metal_Seamed.Metal_Seamed
+[2020.04.03-05.02.53:534][318]LogContentValidation: Display: Validating Texture2D /Game/Models/Monopatin/Metal_Seamed1.Metal_Seamed1
+[2020.04.03-05.02.53:534][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/material_7.material_7
+[2020.04.03-05.02.53:534][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/Color_008.Color_008
+[2020.04.03-05.02.53:534][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/__Color_A11_2.__Color_A11_2
+[2020.04.03-05.02.53:534][318]LogContentValidation: Display: Validating Material /Game/Models/Monopatin/Color_001.Color_001
+[2020.04.03-05.08.48:823][409]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ea04889e-d393-4654-a1de-c95c94da015d}.
+[2020.04.03-05.08.48:823][409]LogTemp: Resetting audio stream to device id 
+[2020.04.03-05.08.48:854][409]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.03-05.08.48:855][409]LogAudioMixer: Display: Name: Altavoz/Auricular (Realtek High Definition Audio)
+[2020.04.03-05.08.48:855][409]LogAudioMixer: Display: Is Default: Yes
+[2020.04.03-05.08.48:855][409]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.03-05.08.48:855][409]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.03-05.08.48:855][409]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.03-05.08.48:855][409]LogAudioMixer: Display: Channel Order:
+[2020.04.03-05.08.48:855][409]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.03-05.08.48:855][409]LogAudioMixer: Display: 1: FrontRight
+[2020.04.03-05.11.53:038][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   8.35ms
+[2020.04.03-05.12.40:290][275]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2020.04.03-05.12.40:607][275]LogSlate: Window 'test - Unreal Editor' being destroyed
+[2020.04.03-05.12.43:362][275]LogWorld: UWorld::CleanupWorld for World_109, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.43:363][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.12.43:662][275]LogWorld: UWorld::CleanupWorld for World_108, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.43:662][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.12.44:552][275]LogWorld: UWorld::CleanupWorld for World_110, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.44:552][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.03-05.12.45:893][276]Cmd: QUIT_EDITOR
+[2020.04.03-05.12.45:893][276]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.04.03-05.12.46:119][276]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.04.03-05.12.46:119][276]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.03-05.12.48:229][276]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.03-05.12.48:295][276]LogExit: Preparing to exit.
+[2020.04.03-05.12.49:307][276]LogWorld: UWorld::CleanupWorld for World_103, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.49:327][276]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.49:351][276]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.49:364][276]LogWorld: UWorld::CleanupWorld for World_104, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.49:381][276]LogWorld: UWorld::CleanupWorld for World_102, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.49:397][276]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.49:413][276]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.49:428][276]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.49:444][276]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.49:459][276]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.49:944][276]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.04.03-05.12.50:542][276]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.04.03-05.12.50:585][276]LogExit: Editor shut down
+[2020.04.03-05.12.50:715][276]LogExit: Transaction tracking system shut down
+[2020.04.03-05.12.56:584][276]LogExit: Object subsystem successfully closed.
+[2020.04.03-05.12.56:845][276]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.04.03-05.12.58:506][276]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (720)
+[2020.04.03-05.12.58:519][276]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (718)
+[2020.04.03-05.12.58:519][276]LogModuleManager: Shutting down and abandoning module FontEditor (716)
+[2020.04.03-05.12.58:519][276]LogModuleManager: Shutting down and abandoning module SequencerWidgets (714)
+[2020.04.03-05.12.58:519][276]LogModuleManager: Shutting down and abandoning module BlueprintGraph (712)
+[2020.04.03-05.12.58:519][276]LogModuleManager: Shutting down and abandoning module PinnedCommandList (710)
+[2020.04.03-05.12.58:519][276]LogModuleManager: Shutting down and abandoning module SkeletonEditor (708)
+[2020.04.03-05.12.58:534][276]LogModuleManager: Shutting down and abandoning module AnimationEditor (706)
+[2020.04.03-05.12.58:534][276]LogModuleManager: Shutting down and abandoning module MeshBuilder (704)
+[2020.04.03-05.12.58:534][276]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (702)
+[2020.04.03-05.12.58:534][276]LogModuleManager: Shutting down and abandoning module Voice (700)
+[2020.04.03-05.12.58:555][276]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (698)
+[2020.04.03-05.12.58:555][276]LogModuleManager: Shutting down and abandoning module SceneOutliner (696)
+[2020.04.03-05.12.58:555][276]LogModuleManager: Shutting down and abandoning module AddContentDialog (694)
+[2020.04.03-05.12.58:815][276]LogModuleManager: Shutting down and abandoning module WidgetCarousel (693)
+[2020.04.03-05.12.58:815][276]LogModuleManager: Shutting down and abandoning module EditorWidgets (690)
+[2020.04.03-05.12.58:815][276]LogModuleManager: Shutting down and abandoning module CollectionManager (688)
+[2020.04.03-05.12.58:823][276]LogModuleManager: Shutting down and abandoning module StatsViewer (686)
+[2020.04.03-05.12.58:830][276]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (684)
+[2020.04.03-05.12.58:835][276]LogModuleManager: Shutting down and abandoning module FoliageEdit (682)
+[2020.04.03-05.12.58:848][276]LogModuleManager: Shutting down and abandoning module LandscapeEditor (680)
+[2020.04.03-05.12.58:911][276]LogModuleManager: Shutting down and abandoning module MeshPaintMode (678)
+[2020.04.03-05.12.58:911][276]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (676)
+[2020.04.03-05.12.58:911][276]LogModuleManager: Shutting down and abandoning module ActorPickerMode (674)
+[2020.04.03-05.12.58:911][276]LogModuleManager: Shutting down and abandoning module GeometryMode (672)
+[2020.04.03-05.12.58:911][276]LogModuleManager: Shutting down and abandoning module TextureAlignMode (670)
+[2020.04.03-05.12.58:911][276]LogModuleManager: Shutting down and abandoning module BspMode (668)
+[2020.04.03-05.12.58:911][276]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (666)
+[2020.04.03-05.12.58:958][276]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (664)
+[2020.04.03-05.12.58:973][276]LogModuleManager: Shutting down and abandoning module AutomationWorker (662)
+[2020.04.03-05.12.58:973][276]LogModuleManager: Shutting down and abandoning module SteamVREditor (660)
+[2020.04.03-05.12.58:974][276]LogModuleManager: Shutting down and abandoning module OculusMR (658)
+[2020.04.03-05.12.58:983][276]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (656)
+[2020.04.03-05.12.58:996][276]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (654)
+[2020.04.03-05.12.59:005][276]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (652)
+[2020.04.03-05.12.59:025][276]LogModuleManager: Shutting down and abandoning module PlacementMode (651)
+[2020.04.03-05.12.59:025][276]LogModuleManager: Shutting down and abandoning module MaterialEditor (650)
+[2020.04.03-05.12.59:025][276]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (646)
+[2020.04.03-05.12.59:033][276]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (644)
+[2020.04.03-05.12.59:033][276]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (642)
+[2020.04.03-05.12.59:033][276]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (640)
+[2020.04.03-05.12.59:033][276]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (638)
+[2020.04.03-05.12.59:033][276]LogModuleManager: Shutting down and abandoning module WebMMedia (636)
+[2020.04.03-05.12.59:065][276]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (634)
+[2020.04.03-05.12.59:083][276]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (632)
+[2020.04.03-05.12.59:101][276]LogModuleManager: Shutting down and abandoning module SequenceRecorder (631)
+[2020.04.03-05.12.59:101][276]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (628)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (626)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (624)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (622)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (620)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (618)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (616)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (614)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (612)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (610)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module CharacterAI (608)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module SmartSnapping (606)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module SessionServices (604)
+[2020.04.03-05.12.59:102][276]LogModuleManager: Shutting down and abandoning module MeshPaint (602)
+[2020.04.03-05.12.59:144][276]LogModuleManager: Shutting down and abandoning module ViewportSnapping (600)
+[2020.04.03-05.12.59:144][276]LogModuleManager: Shutting down and abandoning module ViewportInteraction (598)
+[2020.04.03-05.12.59:145][276]LogModuleManager: Shutting down and abandoning module ClothPainter (596)
+[2020.04.03-05.12.59:172][276]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (595)
+[2020.04.03-05.12.59:180][276]LogModuleManager: Shutting down and abandoning module LogVisualizer (592)
+[2020.04.03-05.12.59:207][276]LogModuleManager: Shutting down and abandoning module IntroTutorials (590)
+[2020.04.03-05.12.59:226][276]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (589)
+[2020.04.03-05.12.59:227][276]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (586)
+[2020.04.03-05.12.59:227][276]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (584)
+[2020.04.03-05.12.59:238][276]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (582)
+[2020.04.03-05.12.59:253][276]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (581)
+[2020.04.03-05.13.00:280][276]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (578)
+[2020.04.03-05.13.00:281][276]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (576)
+[2020.04.03-05.13.00:281][276]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (574)
+[2020.04.03-05.13.00:281][276]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (572)
+[2020.04.03-05.13.00:281][276]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (570)
+[2020.04.03-05.13.00:281][276]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (568)
+[2020.04.03-05.13.00:281][276]LogModuleManager: Shutting down and abandoning module InputBindingEditor (566)
+[2020.04.03-05.13.00:288][276]LogModuleManager: Shutting down and abandoning module MergeActors (564)
+[2020.04.03-05.13.00:303][276]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (562)
+[2020.04.03-05.13.00:312][276]LogModuleManager: Shutting down and abandoning module LocalizationService (561)
+[2020.04.03-05.13.00:326][276]LogModuleManager: Shutting down and abandoning module HardwareTargeting (558)
+[2020.04.03-05.13.00:326][276]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (556)
+[2020.04.03-05.13.00:326][276]LogModuleManager: Shutting down and abandoning module UndoHistory (554)
+[2020.04.03-05.13.00:339][276]LogModuleManager: Shutting down and abandoning module XmlParser (552)
+[2020.04.03-05.13.00:352][276]LogModuleManager: Shutting down and abandoning module Blutility (550)
+[2020.04.03-05.13.00:352][276]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (548)
+[2020.04.03-05.13.00:352][276]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (547)
+[2020.04.03-05.13.00:352][276]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (544)
+[2020.04.03-05.13.00:353][276]LogModuleManager: Shutting down and abandoning module SettingsEditor (542)
+[2020.04.03-05.13.00:368][276]LogModuleManager: Shutting down and abandoning module ProjectLauncher (540)
+[2020.04.03-05.13.00:388][276]LogModuleManager: Shutting down and abandoning module SessionFrontend (538)
+[2020.04.03-05.13.00:400][276]LogModuleManager: Shutting down and abandoning module ProfilerClient (536)
+[2020.04.03-05.13.00:437][276]LogModuleManager: Shutting down and abandoning module DeviceManager (534)
+[2020.04.03-05.13.00:455][276]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (533)
+[2020.04.03-05.13.00:490][276]LogModuleManager: Shutting down and abandoning module AutomationController (530)
+[2020.04.03-05.13.00:495][276]LogModuleManager: Shutting down and abandoning module AutomationWindow (528)
+[2020.04.03-05.13.00:507][276]LogModuleManager: Shutting down and abandoning module Layers (526)
+[2020.04.03-05.13.00:529][276]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (524)
+[2020.04.03-05.13.00:529][276]LogModuleManager: Shutting down and abandoning module DetailCustomizations (522)
+[2020.04.03-05.13.00:529][276]LogModuleManager: Shutting down and abandoning module PackagesDialog (520)
+[2020.04.03-05.13.00:541][276]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (518)
+[2020.04.03-05.13.00:541][276]LogModuleManager: Shutting down and abandoning module Persona (516)
+[2020.04.03-05.13.00:541][276]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (515)
+[2020.04.03-05.13.00:541][276]LogModuleManager: Shutting down and abandoning module AnimGraph (513)
+[2020.04.03-05.13.00:541][276]LogModuleManager: Shutting down and abandoning module Kismet (510)
+[2020.04.03-05.13.00:580][276]LogModuleManager: Shutting down and abandoning module KismetWidgets (509)
+[2020.04.03-05.13.00:580][276]LogModuleManager: Shutting down and abandoning module GraphEditor (506)
+[2020.04.03-05.13.00:581][276]LogModuleManager: Shutting down and abandoning module StructViewer (504)
+[2020.04.03-05.13.00:581][276]LogModuleManager: Shutting down and abandoning module ClassViewer (502)
+[2020.04.03-05.13.00:581][276]LogModuleManager: Shutting down and abandoning module Toolbox (500)
+[2020.04.03-05.13.00:581][276]LogModuleManager: Shutting down and abandoning module ModuleUI (498)
+[2020.04.03-05.13.00:587][276]LogModuleManager: Shutting down and abandoning module OutputLog (496)
+[2020.04.03-05.13.00:900][276]LogModuleManager: Shutting down and abandoning module GammaUI (494)
+[2020.04.03-05.13.00:915][276]LogModuleManager: Shutting down and abandoning module Documentation (492)
+[2020.04.03-05.13.00:978][276]LogModuleManager: Shutting down and abandoning module ToolMenus (490)
+[2020.04.03-05.13.00:978][276]LogModuleManager: Shutting down and abandoning module LiveCoding (488)
+[2020.04.03-05.13.00:997][276]LogModuleManager: Shutting down and abandoning module LevelSequence (486)
+[2020.04.03-05.13.00:997][276]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (484)
+[2020.04.03-05.13.00:997][276]LogModuleManager: Shutting down and abandoning module MovieScene (482)
+[2020.04.03-05.13.01:005][276]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (480)
+[2020.04.03-05.13.01:017][276]LogModuleManager: Shutting down and abandoning module LauncherPlatform (478)
+[2020.04.03-05.13.01:017][276]LogModuleManager: Shutting down and abandoning module AnalyticsET (476)
+[2020.04.03-05.13.01:017][276]LogModuleManager: Shutting down and abandoning module PortalServices (474)
+[2020.04.03-05.13.01:017][276]LogModuleManager: Shutting down and abandoning module PortalRpc (472)
+[2020.04.03-05.13.01:017][276]LogModuleManager: Shutting down and abandoning module MessagingRpc (470)
+[2020.04.03-05.13.01:017][276]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (468)
+[2020.04.03-05.13.01:017][276]LogModuleManager: Shutting down and abandoning module AIModule (466)
+[2020.04.03-05.13.01:017][276]LogModuleManager: Shutting down and abandoning module GameplayDebugger (465)
+[2020.04.03-05.13.01:017][276]LogModuleManager: Shutting down and abandoning module AITestSuite (463)
+[2020.04.03-05.13.01:017][276]LogModuleManager: Shutting down and abandoning module NavigationSystem (461)
+[2020.04.03-05.13.01:017][276]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (458)
+[2020.04.03-05.13.01:027][276]LogModuleManager: Shutting down and abandoning module ProfilerService (456)
+[2020.04.03-05.13.01:285][276]LogModuleManager: Shutting down and abandoning module TaskGraph (454)
+[2020.04.03-05.13.01:296][276]LogModuleManager: Shutting down and abandoning module ScreenshotTools (452)
+[2020.04.03-05.13.01:296][276]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (450)
+[2020.04.03-05.13.01:296][276]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (448)
+[2020.04.03-05.13.01:296][276]LogModuleManager: Shutting down and abandoning module OculusEditor (446)
+[2020.04.03-05.13.01:305][276]LogModuleManager: Shutting down and abandoning module OculusInput (444)
+[2020.04.03-05.13.01:305][276]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (442)
+[2020.04.03-05.13.01:305][276]LogModuleManager: Shutting down and abandoning module EditableMesh (440)
+[2020.04.03-05.13.01:343][276]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (438)
+[2020.04.03-05.13.01:343][276]LogModuleManager: Shutting down and abandoning module CableComponent (436)
+[2020.04.03-05.13.01:343][276]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2020.04.03-05.13.01:343][276]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (433)
+[2020.04.03-05.13.01:343][276]LogModuleManager: Shutting down and abandoning module AssetTags (430)
+[2020.04.03-05.13.01:343][276]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (428)
+[2020.04.03-05.13.01:343][276]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (426)
+[2020.04.03-05.13.01:343][276]LogModuleManager: Shutting down and abandoning module AppleImageUtils (424)
+[2020.04.03-05.13.01:343][276]LogModuleManager: Shutting down and abandoning module AndroidPermission (422)
+[2020.04.03-05.13.01:343][276]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (420)
+[2020.04.03-05.13.01:352][276]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (418)
+[2020.04.03-05.13.01:366][276]LogModuleManager: Shutting down and abandoning module MediaCompositing (416)
+[2020.04.03-05.13.01:366][276]LogModuleManager: Shutting down and abandoning module ImgMedia (414)
+[2020.04.03-05.13.01:366][276]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (412)
+[2020.04.03-05.13.01:366][276]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (410)
+[2020.04.03-05.13.01:366][276]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (408)
+[2020.04.03-05.13.01:366][276]LogModuleManager: Shutting down and abandoning module RawInput (406)
+[2020.04.03-05.13.01:367][276]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (404)
+[2020.04.03-05.13.01:367][276]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (402)
+[2020.04.03-05.13.01:367][276]LogModuleManager: Shutting down and abandoning module BackChannel (400)
+[2020.04.03-05.13.01:372][276]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (398)
+[2020.04.03-05.13.01:372][276]LogModuleManager: Shutting down and abandoning module AutomationUtils (396)
+[2020.04.03-05.13.01:372][276]LogModuleManager: Shutting down and abandoning module AlembicImporter (394)
+[2020.04.03-05.13.01:385][276]LogModuleManager: Shutting down and abandoning module AlembicLibrary (393)
+[2020.04.03-05.13.01:400][276]LogModuleManager: Shutting down and abandoning module GeometryCache (392)
+[2020.04.03-05.13.01:400][276]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (391)
+[2020.04.03-05.13.01:400][276]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (386)
+[2020.04.03-05.13.01:414][276]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (384)
+[2020.04.03-05.13.01:428][276]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (382)
+[2020.04.03-05.13.01:429][276]LogModuleManager: Shutting down and abandoning module PluginBrowser (380)
+[2020.04.03-05.13.01:471][276]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (378)
+[2020.04.03-05.13.01:490][276]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (376)
+[2020.04.03-05.13.01:499][276]LogModuleManager: Shutting down and abandoning module CurveEditorTools (374)
+[2020.04.03-05.13.01:499][276]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (372)
+[2020.04.03-05.13.01:499][276]LogModuleManager: Shutting down and abandoning module CryptoKeys (370)
+[2020.04.03-05.13.01:499][276]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (368)
+[2020.04.03-05.13.01:502][276]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (366)
+[2020.04.03-05.13.01:502][276]LogModuleManager: Shutting down and abandoning module UObjectPlugin (364)
+[2020.04.03-05.13.01:502][276]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (362)
+[2020.04.03-05.13.01:535][276]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (360)
+[2020.04.03-05.13.01:576][276]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (358)
+[2020.04.03-05.13.01:592][276]LogModuleManager: Shutting down and abandoning module GitSourceControl (356)
+[2020.04.03-05.13.01:599][276]LogModuleManager: Shutting down and abandoning module SourceControl (355)
+[2020.04.03-05.13.01:599][276]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (352)
+[2020.04.03-05.13.01:614][276]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (350)
+[2020.04.03-05.13.01:614][276]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (348)
+[2020.04.03-05.13.01:614][276]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (346)
+[2020.04.03-05.13.01:614][276]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (344)
+[2020.04.03-05.13.01:614][276]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (342)
+[2020.04.03-05.13.01:614][276]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (340)
+[2020.04.03-05.13.01:614][276]LogModuleManager: Shutting down and abandoning module Paper2DEditor (338)
+[2020.04.03-05.13.01:652][276]LogModuleManager: Shutting down and abandoning module SignificanceManager (336)
+[2020.04.03-05.13.01:652][276]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (334)
+[2020.04.03-05.13.01:652][276]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (332)
+[2020.04.03-05.13.01:652][276]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (328)
+[2020.04.03-05.13.01:652][276]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2020.04.03-05.13.01:652][276]LogModuleManager: Shutting down and abandoning module UdpMessaging (324)
+[2020.04.03-05.13.01:754][276]LogModuleManager: Shutting down and abandoning module TcpMessaging (322)
+[2020.04.03-05.13.01:867][276]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (320)
+[2020.04.03-05.13.01:875][276]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (318)
+[2020.04.03-05.13.01:902][276]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.04.03-05.13.01:902][276]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (316)
+[2020.04.03-05.13.01:902][276]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (314)
+[2020.04.03-05.13.01:902][276]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (312)
+[2020.04.03-05.13.01:902][276]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (310)
+[2020.04.03-05.13.01:921][276]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (308)
+[2020.04.03-05.13.01:939][276]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (306)
+[2020.04.03-05.13.01:939][276]LogModuleManager: Shutting down and abandoning module MagicLeapController (304)
+[2020.04.03-05.13.01:946][276]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.04.03-05.13.01:946][276]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
+[2020.04.03-05.13.01:946][276]LogModuleManager: Shutting down and abandoning module MagicLeapAR (300)
+[2020.04.03-05.13.01:946][276]LogModuleManager: Shutting down and abandoning module AugmentedReality (299)
+[2020.04.03-05.13.01:947][276]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (296)
+[2020.04.03-05.13.01:953][276]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (294)
+[2020.04.03-05.13.01:953][276]LogModuleManager: Shutting down and abandoning module FacialAnimation (292)
+[2020.04.03-05.13.01:953][276]LogModuleManager: Shutting down and abandoning module DataValidation (290)
+[2020.04.03-05.13.01:953][276]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (288)
+[2020.04.03-05.13.01:963][276]LogModuleManager: Shutting down and abandoning module LevelEditor (287)
+[2020.04.03-05.13.01:997][276]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (286)
+[2020.04.03-05.13.02:035][276]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (284)
+[2020.04.03-05.13.02:037][276]LogModuleManager: Shutting down and abandoning module MainFrame (282)
+[2020.04.03-05.13.02:048][276]LogModuleManager: Shutting down and abandoning module HotReload (281)
+[2020.04.03-05.13.02:070][276]LogModuleManager: Shutting down and abandoning module ContentBrowser (277)
+[2020.04.03-05.13.02:077][276]LogModuleManager: Shutting down and abandoning module TreeMap (275)
+[2020.04.03-05.13.02:088][276]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
+[2020.04.03-05.13.02:089][276]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
+[2020.04.03-05.13.02:089][276]LogModuleManager: Shutting down and abandoning module Paper2D (268)
+[2020.04.03-05.13.02:101][276]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (266)
+[2020.04.03-05.13.02:177][276]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (264)
+[2020.04.03-05.13.02:191][276]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (262)
+[2020.04.03-05.13.02:191][276]LogModuleManager: Shutting down and abandoning module PacketHandler (260)
+[2020.04.03-05.13.02:191][276]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (258)
+[2020.04.03-05.13.02:191][276]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (256)
+[2020.04.03-05.13.02:206][276]LogModuleManager: Shutting down and abandoning module MediaAssets (254)
+[2020.04.03-05.13.02:213][276]LogModuleManager: Shutting down and abandoning module Overlay (252)
+[2020.04.03-05.13.02:214][276]LogModuleManager: Shutting down and abandoning module OverlayEditor (251)
+[2020.04.03-05.13.02:214][276]LogModuleManager: Shutting down and abandoning module VREditor (248)
+[2020.04.03-05.13.02:239][276]LogModuleManager: Shutting down and abandoning module StringTableEditor (246)
+[2020.04.03-05.13.02:282][276]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (244)
+[2020.04.03-05.13.02:282][276]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (242)
+[2020.04.03-05.13.02:311][276]LogModuleManager: Shutting down and abandoning module FunctionalTesting (240)
+[2020.04.03-05.13.02:315][276]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (238)
+[2020.04.03-05.13.02:319][276]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
+[2020.04.03-05.13.02:334][276]LogModuleManager: Shutting down and abandoning module UMG (234)
+[2020.04.03-05.13.02:334][276]LogModuleManager: Shutting down and abandoning module UMGEditor (233)
+[2020.04.03-05.13.02:334][276]LogModuleManager: Shutting down and abandoning module MessageLog (231)
+[2020.04.03-05.13.02:334][276]LogModuleManager: Shutting down and abandoning module SlateReflector (226)
+[2020.04.03-05.13.02:364][276]LogModuleManager: Shutting down and abandoning module Slate (224)
+[2020.04.03-05.13.02:364][276]LogModuleManager: Shutting down and abandoning module SlateCore (222)
+[2020.04.03-05.13.02:364][276]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (220)
+[2020.04.03-05.13.02:364][276]LogModuleManager: Shutting down and abandoning module UnrealEd (218)
+[2020.04.03-05.13.02:372][276]LogModuleManager: Shutting down and abandoning module MRMesh (216)
+[2020.04.03-05.13.02:372][276]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (214)
+[2020.04.03-05.13.02:372][276]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (212)
+[2020.04.03-05.13.02:387][276]LogModuleManager: Shutting down and abandoning module XAudio2 (210)
+[2020.04.03-05.13.02:399][276]LogModuleManager: Shutting down and abandoning module Networking (208)
+[2020.04.03-05.13.02:399][276]LogModuleManager: Shutting down and abandoning module Core (206)
+[2020.04.03-05.13.02:399][276]LogModuleManager: Shutting down and abandoning module MovieSceneTools (204)
+[2020.04.03-05.13.02:417][276]LogModuleManager: Shutting down and abandoning module CurveEditor (203)
+[2020.04.03-05.13.02:417][276]LogModuleManager: Shutting down and abandoning module Sequencer (201)
+[2020.04.03-05.13.02:429][276]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.04.03-05.13.02:482][276]LogModuleManager: Shutting down and abandoning module KismetCompiler (196)
+[2020.04.03-05.13.02:482][276]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
+[2020.04.03-05.13.02:482][276]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
+[2020.04.03-05.13.02:526][276]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
+[2020.04.03-05.13.02:526][276]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
+[2020.04.03-05.13.02:538][276]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
+[2020.04.03-05.13.02:553][276]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
+[2020.04.03-05.13.02:572][276]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
+[2020.04.03-05.13.02:580][276]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
+[2020.04.03-05.13.02:586][276]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
+[2020.04.03-05.13.02:586][276]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
+[2020.04.03-05.13.02:586][276]LogDerivedDataCache: Shutdown
+[2020.04.03-05.13.02:586][276]LogModuleManager: Shutting down and abandoning module XGEController (172)
+[2020.04.03-05.13.02:586][276]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
+[2020.04.03-05.13.02:586][276]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
+[2020.04.03-05.13.02:598][276]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
+[2020.04.03-05.13.02:617][276]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
+[2020.04.03-05.13.02:632][276]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
+[2020.04.03-05.13.02:632][276]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
+[2020.04.03-05.13.02:652][276]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
+[2020.04.03-05.13.02:652][276]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
+[2020.04.03-05.13.02:652][276]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
+[2020.04.03-05.13.02:652][276]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
+[2020.04.03-05.13.02:673][276]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
+[2020.04.03-05.13.02:673][276]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
+[2020.04.03-05.13.02:673][276]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
+[2020.04.03-05.13.02:673][276]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
+[2020.04.03-05.13.02:686][276]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
+[2020.04.03-05.13.02:686][276]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
+[2020.04.03-05.13.02:702][276]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
+[2020.04.03-05.13.02:702][276]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
+[2020.04.03-05.13.02:702][276]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
+[2020.04.03-05.13.02:702][276]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
+[2020.04.03-05.13.02:702][276]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
+[2020.04.03-05.13.02:789][276]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2020.04.03-05.13.02:813][276]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
+[2020.04.03-05.13.02:813][276]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
+[2020.04.03-05.13.02:817][276]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
+[2020.04.03-05.13.02:820][276]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2020.04.03-05.13.02:820][276]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2020.04.03-05.13.02:827][276]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2020.04.03-05.13.02:838][276]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.04.03-05.13.02:838][276]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.04.03-05.13.02:845][276]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2020.04.03-05.13.02:984][276]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
+[2020.04.03-05.13.02:984][276]LogModuleManager: Shutting down and abandoning module InputCore (106)
+[2020.04.03-05.13.02:984][276]LogModuleManager: Shutting down and abandoning module Settings (104)
+[2020.04.03-05.13.02:984][276]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2020.04.03-05.13.03:005][276]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2020.04.03-05.13.03:005][276]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2020.04.03-05.13.03:029][276]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2020.04.03-05.13.03:029][276]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2020.04.03-05.13.03:029][276]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2020.04.03-05.13.03:029][276]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2020.04.03-05.13.03:045][276]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
+[2020.04.03-05.13.03:060][276]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
+[2020.04.03-05.13.03:060][276]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2020.04.03-05.13.03:067][276]LogHMD: Freeing OpenVRDLLHandle.
+[2020.04.03-05.13.03:067][276]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2020.04.03-05.13.03:073][276]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2020.04.03-05.13.03:073][276]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2020.04.03-05.13.03:073][276]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2020.04.03-05.13.03:073][276]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2020.04.03-05.13.03:087][276]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2020.04.03-05.13.03:095][276]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2020.04.03-05.13.03:170][276]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2020.04.03-05.13.03:170][276]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.04.03-05.13.03:170][276]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19B1310B-4597-E4C8-9C6E-76AC7881E40C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=dd90fa45496e3a66e51ace8dd77109ce%7C1f6ebfe2959641d5ba5e9e4e095251a5%7C6c311be3-0c73-4c00-8f57-a8bb15df48c9&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.04.03-05.13.03:196][276]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2020.04.03-05.13.03:201][276]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2020.04.03-05.13.03:285][276]LogModuleManager: Shutting down and abandoning module Media (57)
+[2020.04.03-05.13.03:306][276]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2020.04.03-05.13.03:306][276]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.04.03-05.13.03:306][276]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.04.03-05.13.03:307][276]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.04.03-05.13.03:307][276]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.04.03-05.13.03:307][276]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.04.03-05.13.03:324][276]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.04.03-05.13.03:324][276]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.04.03-05.13.03:324][276]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.04.03-05.13.03:372][276]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.04.03-05.13.03:421][276]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.04.03-05.13.03:452][276]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.04.03-05.13.03:452][276]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.04.03-05.13.03:452][276]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.04.03-05.13.03:452][276]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.04.03-05.13.03:484][276]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.04.03-05.13.03:512][276]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.04.03-05.13.03:512][276]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.04.03-05.13.03:527][276]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.04.03-05.13.03:544][276]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.04.03-05.13.03:544][276]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.04.03-05.13.03:544][276]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.04.03-05.13.03:550][276]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.04.03-05.13.03:550][276]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.04.03-05.13.03:560][276]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.04.03-05.13.03:571][276]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.04.03-05.13.03:571][276]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.04.03-05.13.03:924][276]LogD3D11RHI: Shutdown
+[2020.04.03-05.13.03:924][276]LogD3D11RHI: CleanupD3DDevice
+[2020.04.03-05.13.04:064][276]LogExit: Exiting.
+[2020.04.03-05.13.04:244][276]Log file closed, 04/02/20 23:13:04
